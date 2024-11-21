@@ -1,0 +1,48 @@
+CREATE TABLE espresso(
+	id int(11) PRIMARY KEY AUTO_INCREMENT NOT NULL,
+    name varchar(255) NOT NULL,
+    price varchar(255) NOT NULL,
+    image varchar(255) NOT NULL
+);
+
+CREATE TABLE houseblend(
+	id int(11) PRIMARY KEY AUTO_INCREMENT NOT NULL,
+    name varchar(255) NOT NULL,
+    price varchar(255) NOT NULL,
+    image varchar(255) NOT NULL
+);
+
+CREATE TABLE appetizer(
+	id int(11) PRIMARY KEY AUTO_INCREMENT NOT NULL,
+    name varchar(255) NOT NULL,
+    price varchar(255) NOT NULL,
+    image varchar(255) NOT NULL
+);
+
+CREATE TABLE non_coffee(
+	id int(11) PRIMARY KEY AUTO_INCREMENT NOT NULL,
+    name varchar(255) NOT NULL,
+    price varchar(255) NOT NULL,
+    image varchar(255) NOT NULL
+);
+
+CREATE TABLE matcha_based(
+	id int(11) PRIMARY KEY AUTO_INCREMENT NOT NULL,
+    name varchar(255) NOT NULL,
+    price varchar(255) NOT NULL,
+    image varchar(255) NOT NULL
+);
+
+CREATE TABLE ricemeal(
+	id int(11) PRIMARY KEY AUTO_INCREMENT NOT NULL,
+    name varchar(255) NOT NULL,
+    price varchar(255) NOT NULL,
+    image varchar(255) NOT NULL
+);
+
+CREATE TABLE pastries(
+	id int(11) PRIMARY KEY AUTO_INCREMENT NOT NULL,
+    name varchar(255) NOT NULL,
+    price varchar(255) NOT NULL,
+    image varchar(255) NOT NULL
+);
